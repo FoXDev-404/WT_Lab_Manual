@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/css" href="style.css"?>
+<!-- <?xml-stylesheet type="text/xsl" href="style.xsl"?> -->
+<!DOCTYPE students SYSTEM "students.dtd">
+<students>
+    <student>
+        <name>Rajpal Nishad</name>
+        <rollno>101</rollno>
+        <course>Computer Science</course>
+        <email>rajpal@example.com</email>
+    </student>
+    <student>
+        <name>Nikhil</name>
+        <rollno>102</rollno>
+        <course>Data Science</course>
+        <email>Nikhil@example.com</email>
+    </student>
+</students>

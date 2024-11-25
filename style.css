@@ -1,0 +1,22 @@
+student {
+    display: block;
+    margin: 10px 0;
+    padding: 10px;
+    border: 1px solid #000;
+    background-color: #f9f9f9;
+}
+
+name {
+    font-weight: bold;
+    font-size: 18px;
+    color: #007bff;
+}
+
+rollno,
+course,
+email {
+    display: block;
+    margin: 5px 0;
+    font-size: 14px;
+    color: #333;
+}
