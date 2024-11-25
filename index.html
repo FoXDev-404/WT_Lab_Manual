@@ -1,56 +1,12 @@
-<!DOCTYPE html>
 <html lang="en">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Browser Information</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            margin: 20px;
-            background-color: #f4f4f9;
-            color: #333;
-        }
-
-        h1 {
-            color: #0073e6;
-        }
-
-        .info {
-            margin: 10px 0;
-            padding: 10px;
-            background-color: #fff;
-            border: 1px solid #ddd;
-            border-radius: 5px;
-        }
-    </style>
+    <title>Calculator Applet</title>
 </head>
-
 <body>
-    <h1>Browser Information</h1>
-    <div id="browserInfo" class="info"></div>
-
-    <script>
-        // Function to display browser information
-        function displayBrowserInfo() {
-            // Getting browser details using the navigator object
-            const browserInfo = `
-                <strong>Browser Name:</strong> ${navigator.appName}<br>
-                <strong>Browser Version:</strong> ${navigator.appVersion}<br>
-                <strong>Platform:</strong> ${navigator.platform}<br>
-                <strong>User-Agent:</strong> ${navigator.userAgent}<br>
-                <strong>Language:</strong> ${navigator.language}<br>
-                <strong>Cookies Enabled:</strong> ${navigator.cookieEnabled ? 'Yes' : 'No'}
-            `;
-
-            // Display the browser information in the HTML
-            document.getElementById('browserInfo').innerHTML = browserInfo;
-        }
-
-        // Call the function on page load
-        displayBrowserInfo();
-    </script>
+    <applet code="CalculatorApplet.class" width="300" height="400"></applet>
 </body>
 
 </html>
